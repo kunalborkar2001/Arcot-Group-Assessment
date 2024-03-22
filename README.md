@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# AI Insights Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a single-page React application that serves as an AI insights dashboard. It visualizes data fetched from a mock AI service and presents it using interactive charts and graphs in a visually appealing and user-friendly manner.
 
-## Available Scripts
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [Demo](#demo)
+- [Video Walkthrough](#video-walkthrough)
+- [Contributing](#contributing)
+- [License](#license)
 
-In the project directory, you can run:
+## Overview
+The AI insights dashboard provides insights into the performance and usage statistics of an AI service. It displays various metrics such as total queries, successful queries, failed queries, average response time, category distribution, response times over time, user satisfaction ratings, and usage statistics by platform and country.
 
-### `npm start`
+## Features
+- Fetches mock data from a JSON file to simulate data from an AI service.
+- Visualizes data using different types of interactive charts and graphs:
+  - Bar chart for category distribution.
+  - Line chart for response times trends over time.
+  - Pie chart for user satisfaction ratings.
+  - Bar chart for usage statistics by platform.
+  - Bar chart for usage statistics by country.
+- Implements Redux for state management to handle the application state effectively.
+- Utilizes TypeScript for type-checking and improved code maintainability.
+- Responsive UI design for seamless user experience across devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- React
+- Redux
+- TypeScript
+- Recharts (for data visualization)
+- HTML5
+- CSS3 (with SASS/LESS)
+- Create React App (for project setup)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions
+1. Clone the repository: `git clone <repository-url>`
+2. Navigate to the project directory: `cd ai-insights-dashboard`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit `http://localhost:3000` to view the application.
 
-### `npm test`
+## Demo
+You can view a live demo of the AI insights dashboard [here](#).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Video Walkthrough
+Watch the video walkthrough of the AI insights dashboard on YouTube [here](#).
 
-### `npm run build`
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your suggested changes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
