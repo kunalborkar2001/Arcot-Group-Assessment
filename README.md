@@ -8,9 +8,7 @@ This project is a single-page React application that serves as an AI insights da
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
 - [Demo](#demo)
-- [Video Walkthrough](#video-walkthrough)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 The AI insights dashboard provides insights into the performance and usage statistics of an AI service. It displays various metrics such as total queries, successful queries, failed queries, average response time, category distribution, response times over time, user satisfaction ratings, and usage statistics by platform and country.
@@ -30,10 +28,9 @@ The AI insights dashboard provides insights into the performance and usage stati
 ## Technologies Used
 - React
 - Redux
-- TypeScript
 - Recharts (for data visualization)
 - HTML5
-- CSS3 (with SASS/LESS)
+- CSS3 (Tailwind)
 - Create React App (for project setup)
 
 ## Setup Instructions
@@ -44,13 +41,9 @@ The AI insights dashboard provides insights into the performance and usage stati
 5. Open your browser and visit `http://localhost:3000` to view the application.
 
 ## Demo
-You can view a live demo of the AI insights dashboard [here](#).
+You can view a live demo of the AI insights dashboard https://arcot-group-assessment-liard.vercel.app/ .
 
-## Video Walkthrough
-Watch the video walkthrough of the AI insights dashboard on YouTube [here](#).
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your suggested changes.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
